@@ -63,7 +63,8 @@ header nav ul li {
 
 header nav ul li a,
 .repo-link,
-.contact-link {
+.contact-link,
+.live-link {
   text-decoration: none;
 }
 
@@ -137,12 +138,14 @@ section {
 /* Other anchor tags */
 
 .repo-link,
-.contact-link {
+.contact-link,
+.live-link {
   color: #484f4f;
 }
 
 .repo-link:hover,
-.contact-link:hover {
+.contact-link:hover,
+.live-link:hover {
   color: red;
 }
 

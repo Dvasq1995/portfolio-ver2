@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="home">Diego Vasquez</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="group">
+          <div class="item">
+            <img
+              class="rounded"
+              src="profile-pic.jpg"
+              alt="Diego Vasquez profile photo"
+            />
+          </div>
+          <div class="item">
+            <h2>Hello, my name is Diego.</h2>
+            <p>I am an aspiring web developer from California</p>
+            <p>
+              I am highly tenacious and resourceful and willing to commit all
+              the time needed to provide a solution in web development.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="darker-bg">
+        <div class="group">
+          <div class="item">
+            <h2 id="about">About Me</h2>
+            <h3>My personal goal:</h3>
+            <p>
+              I aspire to become a professional web developer and collaborate in
+              teams to provide efficient solutions in both the front-end and
+              back-end areas in web development using the following
+              technologies:
+            </p>
+            <ol>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              <li>Express.js</li>
+              <li>PostgreSQL</li>
+              <li>MongoDB (for NoSQL database solutions)</li>
+            </ol>
+            <h3>Other interests:</h3>
+            <p>
+              Outside of web development, I enjoy keeping up with my family,
+              hang out with friends, and have recently started learning a
+              foreign language.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="green-bg">
+        <h2 id="portfolio">Portfolio</h2>
+        <div class="group">
+          <div class="item">
+            <a href="https://dvasq1995.github.io/local-library/" target="_blank"
+              ><img
+                class="screenshot"
+                src="local-library.jpg"
+                alt="local library preview"
+            /></a>
+            <h3>Local Library</h3>
+            <p>
+              Link to repo:
+              <a
+                class="repo-link"
+                href="https://github.com/Dvasq1995/local-library"
+                target="_blank"
+                >Local Library</a
+              >
+            </p>
+            <p>
+              This is an application that displays several stats of a library.
+            </p>
+            <p>It displays popular books, authors, and most common genres.</p>
+            <p>
+              The user can select the links in each stat to see the list of
+              books in that category.
+            </p>
+          </div>
+          <div class="item">
+            <a href="https://dvasq1995.github.io/decoder-ring/" target="_blank"
+              ><img
+                class="screenshot"
+                src="decoder-ring.jpg"
+                alt="decoder ring preview"
+            /></a>
+            <h3>Decoder Ring</h3>
+            <p>
+              Link to repo:
+              <a
+                class="repo-link"
+                href="https://github.com/Dvasq1995/decoder-ring"
+                target="_blank"
+                >Decoder Ring</a
+              >
+            </p>
+            <p>
+              This application allows a user to encode or decode messages using
+              three different ciphers.
+            </p>
+            <p>
+              The user can select either the Caesar Shift, the Polybious Square,
+              or the substitution cipher to decode or encode a message.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="group">
+          <div class="item">
+            <h2>Contact Form</h2>
+            <form
+              action="https://formspree.io/vasquezd_cis68@yahoo.com"
+              method="POST"
+            >
+              <label for="user-name">Name:</label>
+              <input id="user-name" type="text" name="name" />
+
+              <label for="user-email">Email:</label>
+              <input id="user-email" type="email" name="email" />
+
+              <label for="user-message">Message:</label>
+              <textarea id="user-message" name="message"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <div class="item">
+            <ul>
+              <li>
+                <p>
+                  Email:
+                  <a
+                    class="contact-link"
+                    href="mailto:vasquezd_cis68@yahoo.com?subject=test"
+                    >vasquezd_cis68@yahoo.com</a
+                  >
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a
+                    class="contact-link"
+                    href="https://github.com/Dvasq1995"
+                    target="_blank"
+                    >GitHub</a
+                  >
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a
+                    class="contact-link"
+                    href="https://www.linkedin.com/in/diego-vasquez-a171011b0/"
+                    target="_blank"
+                    >LinkedIn</a
+                  >
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Diego Vasquez</p>
+    </footer>
+  </body>
+</html>
